@@ -10,7 +10,7 @@ app = QApplication(sys.argv)
 
 window = QWidget()
 window.setWindowTitle('PyQt5 App')
-window.setGeometry(100, 100, 280, 80)
+window.setGeometry(150, 150, 280, 80)
 window.move(60, 15)
 helloMsg = QLabel('<h3>My First PyQt5 GUI!</h3>', parent=window)
 helloMsg.move(60, 15)
