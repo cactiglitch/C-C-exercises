@@ -1,0 +1,25 @@
+/*
+sizeof(char) = 1
+sizeof(int) = 4
+sizeof(double) = 8
+sizeof(char*) = 8
+sizeof(int*) = 8
+sizeof(double*) = 8 // 64-bit compiler 8 bytes
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	cout << "sizeof(char) = " << sizeof(char) << endl;
+	cout << "sizeof(int) = " << sizeof(int) << endl;
+	cout << "sizeof(double) = " <<sizeof(double) <<endl;
+	
+	cout << "sizeof(char*) = " << sizeof(char*) << endl;
+	cout << "sizeof(int*) = " << sizeof(int*) << endl;
+	cout << "sizeof(double*) = " <<sizeof(double*) <<endl;
+	
+	return 0;
+}
