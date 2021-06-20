@@ -3,7 +3,7 @@ Default constructor: creating new MyString
 buffer points to: 0x0x1d8a9321540
 Copy constructor: copying from MyString
 buffer points to: 0x1d8a9321560
-String biffer in MyString is 17 characters long
+String buffer in MyString is 17 characters long
 buffer contains: Hello from String Class
 Invoking destructor, clearing up
 Invoking destructor, clearing up
@@ -63,7 +63,7 @@ public:
 
 void UseMyString(MyString str)
 {
-	cout << "String biffer in MyString is " << str.GetLength();
+	cout << "String buffer in MyString is " << str.GetLength();
 	cout << " characters long" << endl;
 	
 	cout << "buffer contains: " << str.GetString() << endl;
