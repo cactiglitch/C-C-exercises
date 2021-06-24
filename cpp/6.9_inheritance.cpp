@@ -1,6 +1,6 @@
 /*
 About my food
-Lunch: Swims in sea
+Lunch: Swims in lake
 Dinner: Swims in sea
 */
 
@@ -36,7 +36,7 @@ class Carp: public Fish
 public:
 	Carp()
 	{
-		isFreshWaterFish = false;
+		isFreshWaterFish = true;
 	}
 };
 
